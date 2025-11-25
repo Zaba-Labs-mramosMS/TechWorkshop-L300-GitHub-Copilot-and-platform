@@ -9,7 +9,7 @@ has_children: true
 
 ## Scenario
 
-Zava's AI service uses Azure AI Foundry workspace deployments for chat completions. Zava wants to operate responsibly at enterprise scale, and requires that the platform enforce security best practices, content safety and auditability. 
+Zava's AI service uses Microsoft Foundry workspace deployments for chat completions. Zava wants to operate responsibly at enterprise scale, and requires that the platform enforce security best practices, content safety and auditability. 
 
 To ensure this, the platform must enforce:
 
@@ -20,7 +20,7 @@ To ensure this, the platform must enforce:
 - Model safety monitoring
 - Operational observability
 
-Azure AI Foundry emits **first-class diagnostic logs** for request behavior, safety events, latency, and auditing.
+Microsoft Foundry emits **first-class diagnostic logs** for request behavior, safety events, latency, and auditing.
 
 This exercise enables Responsible AI controls through a combination of infrastructure configuration and application-level safety enforcement. You will use GitHub Copilot to configure identity-only access and diagnostic logging via Bicep templates, add content safety filtering at the application layer, and deploy an observability workbook to visualize operational data.
 
@@ -29,8 +29,8 @@ This exercise enables Responsible AI controls through a combination of infrastru
 After completing this exercise, you'll be able to:
 
 - Review and enforce Entra ID-only authentication using Copilot and Bicep
-- Restrict Foundry connections to Managed Identity and validate RBAC assignments
-- Enable Azure AI Foundry diagnostic logs and verify log ingestion
+- Restrict Microsoft Foundry connections to Managed Identity and validate RBAC assignments
+- Enable Microsoft Foundry diagnostic logs and verify log ingestion
 - Configure content safety filters at the application layer using Copilot
 - Test and validate safety controls through safe and unsafe prompts
 - Deploy an observability workbook using Copilot-generated Bicep templates

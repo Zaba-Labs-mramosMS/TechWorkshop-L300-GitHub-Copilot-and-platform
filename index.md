@@ -16,7 +16,7 @@ This lab has exercises on:
 * Planning and implementing infrastructure with Azure MCP and Bicep using Copilot
 * Automating CI/CD pipelines using GitHub Actions and deploying to Azure
 * Securing development with GitHub Advanced Security
-* Boosting developer productivity by refactoring legacy code, building and deploying an AI chatbot agent using Copilot and AI Foundry
+* Boosting developer productivity by refactoring legacy code, building and deploying an AI chatbot agent using Copilot and Microsoft Foundry
 * Monitoring and governing AI model usage with Azure Monitor and Application Insights
 * Resource cleanup
 
@@ -26,6 +26,6 @@ The lab is available as GitHub pages [here](https://microsoft.github.io/TechWork
 
 For running this lab you will need:
 
-* An Azure subscription with access to Azure AI Foundry.
+* An Azure subscription with access to Microsoft Foundry.
 * A GitHub account that you can enable GitHub Enterprise on.
 * A desktop, laptop, or virtual machine and access to install software on that machine.
