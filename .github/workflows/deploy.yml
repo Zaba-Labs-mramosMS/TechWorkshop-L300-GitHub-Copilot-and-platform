@@ -27,7 +27,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          ls src
+          ls
           docker build -t ${{ env.CONTAINER_REGISTRY }}/zava-storefront:${{ github.sha }} -f src/Dockerfile .
           docker push ${{ env.CONTAINER_REGISTRY }}/zava-storefront:${{ github.sha }}
 
